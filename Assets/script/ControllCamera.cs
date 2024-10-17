@@ -7,7 +7,7 @@ public class ControllCamera : MonoBehaviour
     //各種オブジェクト
     public Camera MainCamera;
     public Camera EffectCamera;
-    public float transitionDuration = 2.0f;
+    public float transitionDuration = 5.0f;
     //カメラの座標
     public Vector3 startPosition = new Vector3(0, 0, 3);
     public Vector3 endPosition = new Vector3(0, 5, -10);
